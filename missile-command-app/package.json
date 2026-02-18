@@ -2,7 +2,7 @@
   "name": "missile-command-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dmbartles.github.io/missle_commander",
+  "homepage": ".",
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
