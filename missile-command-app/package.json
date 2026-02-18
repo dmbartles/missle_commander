@@ -2,14 +2,20 @@
   "name": "missile-command-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dmbartles.github.io/missle_commander",
   "dependencies": {
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build --repo https://github.com/dmbartles/missle_commander.git",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
